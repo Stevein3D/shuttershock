@@ -6,6 +6,12 @@ gem 'rails', '4.0.0.rc1'
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'sqlite3'
+  gem 'rspec-rails', '2.11.0'
+end
+
+#Testing
+group :test do
+  gem 'capybara', '1.1.2'
 end
 
 #PostgresQL
