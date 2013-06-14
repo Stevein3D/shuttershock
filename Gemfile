@@ -14,7 +14,7 @@ group :test do
   gem 'capybara', '1.1.2'
 end
 
-#PostgresQL
+gem 'vimeo'
 gem 'pg'#, '0.12.2'
 
 #Gems used only for assets and not required in production environments by default
