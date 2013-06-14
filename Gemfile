@@ -4,8 +4,8 @@ ruby "2.0.0"
 gem 'rails', '4.0.0.rc1'
 
 # Use sqlite3 as the database for Active Record
-group :development do
-  gem 'sqlite3'
+group :development, :test do
+  #gem 'sqlite3'
   gem 'rspec-rails', '2.11.0'
 end
 
@@ -15,9 +15,7 @@ group :test do
 end
 
 #PostgresQL
-group :production do
-  gem 'pg', '0.12.2'
-end
+gem 'pg'#, '0.12.2'
 
 #Gems used only for assets and not required in production environments by default
 group :assets do
